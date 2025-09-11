@@ -29,3 +29,8 @@ console.log(suma);
 console.log(resta);
 console.log(division);
 console.log(multiplicacion);
+
+
+
+// Nombre completo: Juan Pérez
+// Ejercicio 3: Calcular el área de un círculo dado el radio
