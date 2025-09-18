@@ -16,6 +16,10 @@ console.log(product.productName);
 
 
 // Para que sirve el Destructuring? Sirve para extraer los valores de un objeto.
+
+
+
 const {price, available, productName} = product;
 
 console.log(price, available, productName);
+

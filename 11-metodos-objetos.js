@@ -5,7 +5,7 @@
 const product = {
     productName : "Sensor de humedad",
     price : 300,
-    available : true,
+    available : true
 }
 
 const speedMax = 80;
@@ -38,6 +38,8 @@ Object.seal(product);
 
 // console.log("¿El objeto está bloqueado?: " + response);
 
+
+// Cada vez que se usa delete, el motor de JavaScript debe reconfigurar internamente la estructura oculta del objeto (hidden classes en V8), lo cual degrada el rendimiento. En aplicaciones de alto desempeño, se recomienda asignar null o undefined en lugar de eliminar propiedades para evitar esa penalización.
 // Eliminar una propiedad de un objeto
 // delete product.price;
 // console.log(product);
