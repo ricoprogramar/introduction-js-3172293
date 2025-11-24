@@ -25,7 +25,13 @@ console.log("El nombre del producto es: " + product.productName);
 console.log("El precio del producto es: " + product.price);
 console.log("El producto está disponible?: " + product.available);
 
+// Otra forma de acceder a las propiedades de un objeto
+console.log(product['price']);
+
 // Agregar propiedades al objeto
 product.image = 'Miguel.jpg';
+
+// Eliminar propiedades de un objeto
+delete product.price;
 
 console.log(product);
