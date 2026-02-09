@@ -36,6 +36,11 @@ const shoppingCart = [
 //Ahora forEch con arrow function
 
 // Recorrer un arreglo por cada elemento 
-shoppingCart.forEach((product) => console.log(product));
+// shoppingCart.forEach((product) => console.log(product));
 
 
+//======= Conmigo se Siente Rico Programar 🤣 =======
+
+const array = shoppingCart.map( product => `El nombre del producto es: ${product.productName} - ${product.price}`)
+
+console.log(array);
