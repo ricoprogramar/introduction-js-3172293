@@ -1,0 +1,32 @@
+{
+    "__comment1":"La syntaxis json no acepta comentarios",
+    "__comment2":"JSON hace obligatorio usar llaves dobles",
+
+    "employees": [
+        {
+            "id": 1,
+            "user": "Edwar",
+            "job": "Web programmer"
+        },
+        {
+            "id": 2,
+            "user": "David",
+            "job": "UX / UI"
+        },
+        {
+            "id": 3,
+            "user": "Brineidy",
+            "job": "Marketing"
+        },
+        {
+            "id": 4,
+            "user": "Sergio",
+            "job": "Server"
+        },
+        {
+            "id": 5,
+            "user": "Laura",
+            "job": "Frontend"
+        }
+    ]
+}
